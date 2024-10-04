@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game-container {
+    text-align: center;
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    color: #ff616f;
+}
+
+#instructions {
+    color: #555;
+    margin-bottom: 20px;
+}
+
+#heart-button {
+    background-color: #ff616f;
+    color: white;
+    font-size: 24px;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+#heart-button:hover {
+    transform: scale(1.1);
+}
+
+#message {
+    color: #ff616f;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.hidden {
+    display: none;
+}
